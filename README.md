@@ -1,4 +1,4 @@
-# Two-Blinking-LEDs
+
 # Two Blinking LEDs
 
 This project demonstrates how to control two LEDs using a microcontroller, such as an Arduino. The LEDs blink alternately, creating a simple but visually appealing effect. This example serves as a foundational exercise for learning basic electronics and programming concepts related to microcontrollers and digital output.
