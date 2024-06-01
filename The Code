@@ -1,0 +1,23 @@
+// Define the LED pins
+const int ledPin1 = 8;
+const int ledPin2 = 9;
+
+void setup() {
+  // Initialize the LED pins as outputs
+  pinMode(ledPin1, OUTPUT);
+  pinMode(ledPin2, OUTPUT);
+}
+
+void loop() {
+  // Turn on LED1 and turn off LED2
+  digitalWrite(ledPin1, HIGH);
+  digitalWrite(ledPin2, LOW);
+  // Wait for 500 milliseconds
+  delay(500);
+
+  // Turn off LED1 and turn on LED2
+  digitalWrite(ledPin1, LOW);
+  digitalWrite(ledPin2, HIGH);
+  // Wait for 500 milliseconds
+  delay(500);
+}
